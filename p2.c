@@ -12,7 +12,7 @@ int main()
 	
 	{
 		
-		printf("\n  Voce deseja converter: 1_ Binario para decimal \n 2_ Binario para hexadecimal \n 3. Hexadecimal para Decimal  \n 4_ Hexadecimal para binario \n 5_ Decimal para binario \n 6_ Decimal para hexadecimal \n 7_ Octal para decimal \n 8_ Decimal para octal \n 9_ Sair do programa");
+		printf("\n  Voce deseja converter:\n 1_ Binario para decimal \n 2_ Binario para hexadecimal \n 3. Hexadecimal para Decimal  \n 4_ Hexadecimal para binario \n 5_ Decimal para binario \n 6_ Decimal para hexadecimal \n 7_ Octal para decimal \n 8_ Decimal para octal \n 9_ Sair do programa");
 		scanf ("%d",&menu);
 		
 		switch (menu)
