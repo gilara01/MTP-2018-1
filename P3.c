@@ -89,15 +89,15 @@ printf(")");
 	
 
      case 6:
-     	printf("\nDigite o numero\n\n",x,y);
-		scanf( "%d %d", &x, &y);
-		printf("%d (",x);
-		decibina(x);
-		printf(" ) << %d (" , y);
-		decibina(y);
-		printf (" ) : %d (",x<<y);
-		decibina(x<<y);
-		printf(")");
+      printf("\nDigite o numero\n\n",x,y);
+                scanf( "%d %d", &x, &y);
+printf("%d (",x);
+decibina(x);
+printf(" ) << %d (" , y);
+decibina(y);
+printf (" ) : %d (",x<<y);
+decibina(x<<y);
+printf(")");
 		
 		break;
 	}
