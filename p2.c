@@ -19,7 +19,8 @@ int main()
 		{
 		case 1:
 			printf ("Digite o numero em binario: \n");
-			scanf("%s",&vet); getchar ();
+			scanf("%s",vet);
+				getchar ();
 	
 		num=0;
 		
@@ -33,8 +34,10 @@ int main()
 			
 		case 2:
 			printf ("Digite o numero em binario: \n>");
-			scanf("%s",&vet); getchar ();
+			scanf("%s",vet);
+				getchar ();
 			
+				
 		num=0;
 		
     		for(i=0;vet	[i]!= '\0';i++){
@@ -47,7 +50,8 @@ int main()
 			break;
 		case 3:
 			printf ("Digite o numero em hexadecimal: \n");
-			scanf("%X",&x); getchar();
+			scanf("%X",&x);
+				getchar();
 		
 			printf("%X eh: %d\n",x,x);
 		
@@ -55,7 +59,8 @@ int main()
 			break;
 		case 4:
 			printf ("Digite o numero em hexadecimal: \n");
-			scanf("%X",&x); getchar();
+			scanf("%X",&x); 
+				getchar();
 		
 			printf("%X  eh: ",x);
 			for(nb = 0; x >= (1 << nb); nb++);
@@ -78,7 +83,8 @@ int main()
 	
 		case 5:
 			printf ("Digite o numero em decimal: \n");
-			scanf("%d",&x	); getchar();
+			scanf("%d",&x	); 
+				getchar();
 			printf("%d  eh: ",x	);
 			for(nb = 0; x	 >= (1 << nb); nb++);
 			for(i=nb-1;i>=0;i--){
@@ -95,19 +101,22 @@ int main()
 			
 			case 6:
 			printf ("Digite o numero em decimal: \n");
-			scanf("%d",&x); getchar();
+			scanf("%d",&x);
+				getchar();
 			printf("%d em hexadecimal eh: %X\n",x,x);
 			
 			break;
 		case 7:
 			printf ("Digite o numero em octal: \n>");
-			scanf("%o",&x); getchar();
+			scanf("%o",&x); 
+				getchar();
 			printf("%o  eh: %d\n",x,x);
 			break;
 			
 		case 8:
 			printf("Digite o numero em decimal: \n>");
-			scanf("%d",&x); getchar();
+			scanf("%d",&x); 
+				getchar();
 			printf("%d em octal eh: %o\n",x,x);
 			break;
 		}
