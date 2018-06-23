@@ -14,7 +14,7 @@ int main()
 	switch(opcao)
 	{
 			case 1:
-			gets(str);
+			scanf("%s",str);
 		
 		int *ps;
 		
