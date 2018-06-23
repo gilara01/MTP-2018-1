@@ -5,7 +5,7 @@ int main()
 {
     int a, b;
     char c[256];
-    scanf("%s", &c);
+    scanf("%s", c);
     for(b=0;c[b]!='\0'; b++)
     {
         if(a==0)
