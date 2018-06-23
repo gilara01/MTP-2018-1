@@ -1,7 +1,7 @@
 //Giovanna Lara Cabrera Gaspar 11721ECP008
 #include<stdio.h>
 
-       int decibina( x)
+       int decibina(int x)
 		{  int i,nb;
 		   for(nb=31;nb>=0;nb--)
 		   { i=x>>nb;
@@ -24,7 +24,7 @@ scanf ("%d",&menu); getchar();
 {
 	case 1:
      
-		printf("\nDigite o numero\n",x);
+		printf("\nDigite o numero\n");
 		scanf( "%d", &x);
 printf(" NOT %d(",x);
     decibina(x);
@@ -39,7 +39,7 @@ printf( ") : %d(",~x);
 	
 	case 2:
 		
-	printf("\nDigite o numero\n\n",x,y);
+	printf("\nDigite o numero\n\n");
 		scanf( "%d %d", &x ,&y);
  printf("%d ( ",x);
  decibina(x); 
@@ -52,7 +52,7 @@ printf(" )");
 		break;
 	case 3:
 	
-printf("\nDigite o numero\n\n",x,y);
+printf("\nDigite o numero\n\n");
 		scanf( "%d %d", &x ,&y);
 printf("%d ( ",x);
 decibina(x);
@@ -64,7 +64,7 @@ printf(")");
 	
 		break;
 	case 4:
-	printf("\nDigite o numero\n\n",x,y);
+	printf("\nDigite o numero\n\n");
 		scanf( "%d %d", &x, &y);
 printf("%d (",x);
 decibina(x); 
@@ -75,7 +75,7 @@ decibina(x^y);
 printf(")");
 break;
 	case 5:
-	printf("\nDigite o numero\n\n",x,y);
+	printf("\nDigite o numero\n\n");
 		scanf( "%d %d", &x ,&y);	
 printf("%d (",x);
 decibina(x);
@@ -89,7 +89,7 @@ printf(")");
 	
 
      case 6:
-      printf("\nDigite o numero\n\n",x,y);
+      printf("\nDigite o numero\n\n");
                 scanf( "%d %d", &x, &y);
 printf("%d (",x);
 decibina(x);
